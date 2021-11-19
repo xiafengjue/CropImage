@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--AppBarLayout布局默认theme，用在android:theme的情况下，设置了默认字体颜色和背景色，删掉Toolbar的自定义颜色可以保持一致，也可以自己使用toolbar自定义颜色-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <!--Toolbar的menu默认字体颜色，因为采用的是白色的状态-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="ToolbarTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>

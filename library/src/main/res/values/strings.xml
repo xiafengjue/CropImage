@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_crop">裁剪图片</string>
+    <string name="confirm">确定</string>
+    <string name="reselect">重新选择</string>
+</resources>
